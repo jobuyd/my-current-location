@@ -11,8 +11,8 @@ Responsive design for desktop and mobile
 
 Clone the repository:
 ```console
-git clone https://github.com/yourusername/ip-location-tracker.git
-cd ip-location-tracker
+git clone https://github.com/jobuyd/my-current-location.git
+cd my-current-location
 ```
 
 Open index.html in your browser.
