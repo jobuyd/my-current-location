@@ -17,6 +17,9 @@ cd ip-location-tracker
 
 Open index.html in your browser.
 
+# Customization
+Replace the "YOUR_GOOGLE_MAPS_API_KEY" placeholder in script.js with your own Google Maps API key.
+
 # How It Works
 Fetches IP using ipify API and location details using ip-api.
 Displays a Google Map based on the user's latitude and longitude.

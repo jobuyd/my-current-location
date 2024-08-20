@@ -15,7 +15,7 @@ fetch('https://api.ipify.org?format=json')
         document.getElementById('longitude').textContent = `Longitude: ${data.lon}`;
         
         // Show a map using the latitude and longitude
-        const mapSrc = `https://www.google.com/maps/embed/v1/view?key=AIzaSyA-xer_E3mkeL3Z2YtOnS6u5tqDzpf5hLo&center=${data.lat},${data.lon}&zoom=14`;
+        const mapSrc = `https://www.google.com/maps/embed/v1/view?key=YOUR_GOOGLE_MAPS_API_KEY&center=${data.lat},${data.lon}&zoom=14`;
         document.getElementById('map').innerHTML = `<iframe width="100%" height="100%" frameborder="0" style="border:0" src="${mapSrc}" allowfullscreen></iframe>`;
     });
 
