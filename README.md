@@ -22,4 +22,4 @@ Fetches IP using ipify API and location details using ip-api.
 Displays a Google Map based on the user's latitude and longitude.
 
 # License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/jobuyd/my-current-location?tab=MIT-1-ov-file).
